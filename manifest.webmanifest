@@ -1,0 +1,14 @@
+{
+  "name": "MT5 Order Placement · Prototype",
+  "short_name": "MT5 Proto",
+  "description": "Interactive prototype of a risk-first order placement redesign for MetaTrader 5 on iOS. Concept project with simulated prices.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F2F2F7",
+  "theme_color": "#F2F2F7",
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
