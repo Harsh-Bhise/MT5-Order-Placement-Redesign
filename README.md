@@ -24,10 +24,14 @@ Concept project by Harsh. Not affiliated with or endorsed by MetaQuotes. Prices 
 
 The account is saved in the browser, so trades are still there on refresh. Use **Reset prototype** to start over.
 
+## Design system
+
+`design-system.html` documents the foundations (color with contrast checks, type scale, spacing) and the main components of the order flow. Every example on it is captured from this prototype. Once hosted, it lives at `https://<your-username>.github.io/mt5-prototype/design-system.html`.
+
 ## Host it on GitHub Pages (free)
 
 1. Create a new public repository on GitHub, for example `mt5-prototype`.
-2. Upload every file in this folder to the root of the repository: `index.html`, `manifest.webmanifest`, `icon-180.png`, `icon-512.png` and `README.md`. Use **Add file → Upload files**, then commit.
+2. Upload every file in this folder to the root of the repository: `index.html`, `design-system.html`, `manifest.webmanifest`, `icon-180.png`, `icon-512.png` and `README.md`. Use **Add file → Upload files**, then commit.
 3. Go to **Settings → Pages**. Under **Build and deployment**, set Source to **Deploy from a branch**, Branch to **main**, folder to **/ (root)**, then **Save**.
 4. After a minute or two the site is live at `https://<your-username>.github.io/mt5-prototype/`.
 
