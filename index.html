@@ -428,7 +428,6 @@ html.native .hw,html.native .island{display:none}
       <button data-scn="manual">Manual lots, no Stop Loss</button>
       <button data-scn="drop">Order not sent</button>
     </div>
-    <p style="margin:18px 0 0"><a href="design-system.html" style="color:var(--blue);font-weight:600;font-size:15px;text-decoration:none">Design system and components →</a></p>
     <button class="reset" data-act="reset">Reset prototype</button>
     <p class="fine">Concept redesign by Harsh for a UX case study. Not affiliated with or endorsed by MetaQuotes. Prices are simulated and no real trading happens.</p>
   </aside>
@@ -499,12 +498,12 @@ const SY = {
   GBPUSD:{d:'British Pound vs US Dollar',b:'GBP',q:'USD',digits:5,pip:1e-4,bid:1.27170,ask:1.27180,open:1.27265,lo:1.26980,hi:1.27420,t:'15:11:10',dir:'dn'},
   AUDCAD:{d:'Australian Dollar vs Canadian Dollar',b:'AUD',q:'CAD',digits:5,pip:1e-4,bid:0.91825,ask:0.91836,open:0.92043,lo:0.91541,hi:0.92055,t:'15:11:10',dir:'up'},
   AUDCHF:{d:'Australian Dollar vs Swiss Franc',b:'AUD',q:'CHF',digits:5,pip:1e-4,bid:0.53010,ask:0.53021,open:0.53400,lo:0.52963,hi:0.53377,t:'15:11:10',dir:'dn'},
-  AUDDKK:{d:'Australian Dollar vs Danish Krone',b:'AUD',q:'DKK',digits:5,pip:1e-4,bid:4.45852,ask:4.46016,open:null,lo:4.45602,hi:4.47500,t:'20:47:19',dir:''},
-  AUDHKD:{d:'Australian Dollar vs Hong Kong Dollar',b:'AUD',q:'HKD',digits:5,pip:1e-4,bid:5.25944,ask:5.25953,open:null,lo:5.22274,hi:5.26202,t:'08:28:09',dir:'',closed:'opens Monday 00:05'},
+  AUDDKK:{d:'Australian Dollar vs Danish Krone',b:'AUD',q:'DKK',digits:5,pip:1e-4,bid:4.45852,ask:4.46016,open:4.46210,lo:4.45602,hi:4.47500,t:'20:47:19',dir:''},
+  AUDHKD:{d:'Australian Dollar vs Hong Kong Dollar',b:'AUD',q:'HKD',digits:5,pip:1e-4,bid:5.25944,ask:5.25953,open:5.24730,lo:5.22274,hi:5.26202,t:'08:28:09',dir:'',closed:'opens Monday 00:05'},
   AUDJPY:{d:'Australian Dollar vs Japanese Yen',b:'AUD',q:'JPY',digits:3,pip:1e-2,bid:103.516,ask:103.526,open:104.171,lo:103.176,hi:104.123,t:'15:11:10',dir:'up'},
   AUDNZD:{d:'Australian Dollar vs New Zealand Dollar',b:'AUD',q:'NZD',digits:5,pip:1e-4,bid:1.14487,ask:1.14510,open:1.14727,lo:1.14414,hi:1.14820,t:'15:11:10',dir:'dn'},
-  AUDNOK:{d:'Australian Dollar vs Norwegian Krone',b:'AUD',q:'NOK',digits:5,pip:1e-4,bid:6.89340,ask:6.89630,open:null,lo:6.88200,hi:6.92600,t:'16:28:18',dir:''},
-  AUDPLN:{d:'Australian Dollar vs Polish Zloty',b:'AUD',q:'PLN',digits:5,pip:1e-4,bid:2.63122,ask:2.63225,open:null,lo:2.62648,hi:2.64158,t:'16:28:20',dir:''}
+  AUDNOK:{d:'Australian Dollar vs Norwegian Krone',b:'AUD',q:'NOK',digits:5,pip:1e-4,bid:6.89340,ask:6.89630,open:6.91020,lo:6.88200,hi:6.92600,t:'16:28:18',dir:''},
+  AUDPLN:{d:'Australian Dollar vs Polish Zloty',b:'AUD',q:'PLN',digits:5,pip:1e-4,bid:2.63122,ask:2.63225,open:2.62890,lo:2.62648,hi:2.64158,t:'16:28:20',dir:''}
 };
 const SYMS = Object.keys(SY);
 let P = {};
